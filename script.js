@@ -21,8 +21,8 @@ function generatePassword() {
     alert("Come on man you have to choose at least one");
     var confirmLower = confirm("Would you like lower case letters?");
     var confirmUpper = confirm("Would you like uppercase letters?");
-   var confirmNumbers = confirm("Would you like numbers?");
-   var confirmSpecial = confirm("Would you like special characters?");
+    var confirmNumbers = confirm("Would you like numbers?");
+    var confirmSpecial = confirm("Would you like special characters?");
   }
   if (confirmLower){
     selectedCharacters = selectedCharacters.concat(lowercase)
